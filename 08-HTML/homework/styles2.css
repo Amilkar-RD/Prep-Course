@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Indie+Flower&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-header{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    
+}
+.contenedor{
+    width: calc(100% - 5px);    
+    margin-left : 1rem;
+    margin-right : 1rem;
+}
+
+.main-header .contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu h1{
+    margin-right: 70px;
+    font-family: 'Bree Serif', serif;
+    font-size: px;
+}
+.main-menu ul{
+    display: flex; 
+    list-style: none;
+}
+.main-menu ul li{
+    margin-right: 25px;
+}
+
+.main-banner{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 10px;
+    background-color: #2A8BF4;
+    
+}
+
+.main-banner .content img{
+    width : 10%;
+    height: 10%;    
+    border: white 2px solid;
+    margin-top: 10px;
+    
+     
+}
+.main-banner .title{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.main-banner .subtitle {       
+    padding-bottom: 1.5%;
+}
+.section-container h1,
+.section-container h2 {
+  text-align : center;
+}
+/*Educación*/
+.Educacion-section .contenedor{    
+    display         : grid;    
+    justify-content : center;
+    grid-template-columns : repeat(3, 1fr);
+    
+    
+}
+.Educacion-section h2{
+    margin-top: 7%;
+    font-size: 25px;
+}
+
+.service-item {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    text-align     : center;
+    max-width      : 300px;
+    margin         : 0 auto;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+    margin-bottom : 2px;;
+}
+
+.service-item p{
+    margin-top: 3px;
+    color: #676F73;
+    padding-bottom: 5%;
+}
+
+
+/*Experiencia laboral*/
+.Experiencia-section .contenedor{    
+    display         : grid;    
+    justify-content : center;
+    grid-template-columns : repeat(4, 1fr); 
+        
+}
+.Experiencia-section{
+    background-color: #2A8BF4;
+}
+.Experiencia-item1 {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    text-align     : center;
+    max-width      : 300px;
+    margin         : 0 auto;
+}
+.Experiencia-section h2{
+    padding-top: 7%; 
+    color: white;
+    font-size: 25px;
+}
+
+.Experiencia-section .service-item1 h3 {
+    margin-top: 10px;
+    margin-bottom : 2px;
+    color: white;
+}
+
+.Experiencia-item1 p{
+    margin-top: 3px;
+}
+.Experiencia-item1  em{
+    
+    color: white;
+    opacity: 50%;
+    padding-bottom: 10%;
+}
+
+/*Skills*/
+.Skills-section .contenedor{    
+    display         : grid;    
+    justify-content : center;
+    grid-template-columns : repeat(4, 1fr); 
+        
+}
+
+.Skills-item1 {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    text-align     : center;
+    max-width      : 300px;
+    margin         : 0 auto;
+}
+.Skills-section h2{
+    padding-top: 7%; 
+    font-size: 25px;
+}
+
+.Skills-section .service-item1 h3 {
+    margin-top: 10px;
+    margin-bottom : 2px;
+    color: white;
+}
+
+.Skills-item1 p{
+    margin-top: 3px;
+    padding-bottom: 10%;
+}
+
+/*Hobbies*/
+.Hobbies-section .contenedor{    
+    display         : grid;    
+    justify-content : center;
+    grid-template-columns : repeat(2, 1fr); 
+        
+}
+
+.Hobbies-item1 {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    text-align     : justify;
+    max-width      : 300px;
+    margin         : 0 auto;
+}
+.Hobbies-section{
+    background-color: #2A8BF4;
+}
+.Hobbies-section h2{
+    padding-top: 7%;    
+    color: white;
+    font-size: 25px;
+}
+
+.Hobbies-section .service-item1 h3 {
+    margin-top: 10px;
+    margin-bottom : 2px;
+    color: white;
+}
+
+.Hobbies-item1 p{
+    margin-top: 3px;
+    padding-bottom: 10%;
+}
+
+/*Henry*/
+.Henry-item1 {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    text-align     : justify;
+    max-width      : 300px;
+    margin         : 0 auto;
+}
+
+.Henry-section h2{
+    padding-top: 4%; 
+    font-size: 25px;
+}
+
+.Henry-section .Henry-item1 h3 {
+    margin-top: 3px;
+    margin-bottom : 2px;
+}
+
+.Henry-item1 p{
+    margin-top: 3px;
+    padding-bottom: 10%;
+}
+
+
+.main-footer {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    margin-top      : auto;
+    width           : 100%;
+    color: #676F73;
+  }
